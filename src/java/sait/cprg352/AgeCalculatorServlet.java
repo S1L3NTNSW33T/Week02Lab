@@ -23,7 +23,7 @@ public class AgeCalculatorServlet extends HttpServlet {
             return;
         }
 
-        if (age.matches("[0-9]+")) { //is a string
+        if (age.matches("[0-9]+")) { //is an int
             ageInt = Integer.parseInt(age);
         } else {
             request.setAttribute("errorMessage", "Please enter only a number between 1 and 150");
