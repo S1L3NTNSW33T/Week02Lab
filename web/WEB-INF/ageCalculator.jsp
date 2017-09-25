@@ -1,8 +1,3 @@
-<%-- 
-    Document   : ageCalculator
-    Created on : Sep 19, 2017, 1:18:06 PM
-    Author     : 687159
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
